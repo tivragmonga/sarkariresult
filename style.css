@@ -20,7 +20,7 @@
     width: 50%;
     height: 100%;
 }
-#home, #about, #latestjob, #admitcard{
+#home{
     background-color: white;
     color: black;
     border-radius: 25px;
