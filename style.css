@@ -31,6 +31,9 @@
     background-color: white;
     border: 2px solid black;
     border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #heading{
     background-color: #edeeed;
