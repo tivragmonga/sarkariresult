@@ -1,1 +1,61 @@
+*{
+    background-color: rgb(206, 212, 218);
+}
+#dashbord{
+    background-color: rgb(222, 226, 230);
+    height: 1000px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
 
+}
+#navbar{
+    background-color: rgb(222, 226, 230);
+    height: 100%;
+    width: 15%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#main{
+    background-color: rgb(222, 226, 230);
+    height: 100%;
+    width: 85%;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#horinavbar{
+    background-color: rgb(222, 226, 230);
+    height: 50px;
+    border-top-right-radius: 25px;
+}
+#card{
+    background-color: white;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-right: 2%;
+}
+#dashboard{
+    background-color: rgb(222, 226, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+#logo{
+    width: 25%;
+    margin-left: 2%;
+}
+#logodiv{
+    height: 50px;
+    background-color: rgb(222, 226, 230);
+}
+#resultsarkari{
+    background-color: rgb(222, 226, 230);
+    font-size: large;
+    font-family: cursive;
+    padding-left: 10%;
+    border-top-left-radius: 25px;
+}
