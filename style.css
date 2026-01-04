@@ -95,7 +95,7 @@
 }
 #card1{
     background-color: white;
-    height: 200px;
+    height: 170px;
     border-radius: 25px;
     margin-right: 2%;
     display: flex;
@@ -110,13 +110,16 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
+    color: black;
 }
 .alertbutton{
     height: 50%;
     border-radius: 25px;
+    background-color: rgb(222, 226, 230);
 }
 h3{
     color: black;
+    background-color: rgb(222, 226, 230);
 }
 #card2{
     height: 500px;
