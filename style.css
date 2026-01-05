@@ -61,6 +61,7 @@
     padding-left: 10%;
     border-radius: 25px;
     margin: 0%;
+    width: 100%;
 }
 #search{
     width: 50%;
@@ -165,11 +166,12 @@ a{
     background-color: rgb(222, 226, 230);
 }
 #titlejob{
-    height: 5%;
+    height: 3%;
     background-color: white;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     display: inline-block;
+    width: 100%;
 }
 #job19{
     border-bottom-left-radius: 25px;
@@ -179,8 +181,15 @@ h1{
     font-size: x-large;
     font-family: cursive;
     background-color: white;
-    margin-left: 100%;
     border-radius: 25px;
     margin-top: 0%;
+    width: 50%;
+    margin-left: 30%;
+}
+@media screen and (max-width: 768px){
+    *{
+        background-color: white !important;
+        display: none;
+    }
 }
 
