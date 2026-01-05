@@ -156,14 +156,9 @@ a{
     height: 100%;
     border: 1px solid black;
 }
-#job1, #job3, #job5, #job7, #job9, #job11, #job13, #job15, #job17, #job19{
+#job{
     height: 5%;
     background-color: rgb(206, 212, 218);
-
-}
-#job2, #job4, #job6, #job8, #job10, #job12, #job14, #job16, #job18{
-    height: 5%;
-    background-color: rgb(222, 226, 230);
 }
 #titlejob{
     height: 3%;
@@ -172,10 +167,6 @@ a{
     border-top-right-radius: 25px;
     display: inline-block;
     width: 100%;
-}
-#job19{
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 h1{
     font-size: x-large;
@@ -192,4 +183,23 @@ h1{
         display: none;
     }
 }
-
+#job{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+    align-items: center;
+}
+#jobtext{
+    font-size: large;
+    margin-top: 0%;
+    width: 80%;
+}
+#joblink{
+    border-radius: 25px;
+    background-color: white;
+    width: 20%;
+    height: 50%;
+}
+a{
+    background-color: white;
+}
